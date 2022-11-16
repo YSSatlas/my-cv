@@ -10,6 +10,11 @@ header {
     margin: 40px;
 }
 
+body {
+    justify-content: center;
+    text-align: center;
+}
+
 aside {
     position:fixed;
     height: 100vh;
@@ -43,4 +48,9 @@ aside td.act {
 .table1 {
     border:2px inset rgb(203, 48, 250)
      
+}
+
+.div1 {
+
+    width: 800px;
 }
