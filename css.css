@@ -1,0 +1,46 @@
+main{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+}
+
+header {
+    background: purple;
+    border-radius: 30px 0px 30px 0px;
+    margin: 40px;
+}
+
+aside {
+    position:fixed;
+    height: 100vh;
+    width: 15vw;
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(5,2,6,1) 65%, rgba(156,2,244,1) 100%);
+    color:#7308a5;
+    line-height: 5px;
+    text-align: center;
+}
+
+aside a {
+    color:aqua;
+}
+aside td,tr {
+    border:1px solid white;
+    line-height: normal;
+}
+
+aside td.des{
+    background: gray;
+    height: 10px;
+    width: 10px;
+}
+
+aside td.act {
+    background: white;
+    height: 10px;
+    width: 10px;
+}
+
+.table1 {
+    border:2px inset rgb(203, 48, 250)
+     
+}
